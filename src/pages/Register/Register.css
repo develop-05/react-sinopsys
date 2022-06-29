@@ -1,0 +1,250 @@
+body {
+    color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+  }
+
+
+.register__form_wrapper{
+    background-image: url("../../../public/images/login_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.register__logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.register__text{
+    padding-top: 60px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.register__form{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0px -14px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 42px 42px 0px 0px;
+    margin-top: 177px;
+}
+
+.register__form_signup{
+    margin-top: 100px;
+}
+
+.register__form_content{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.register__title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #000000;
+    margin-right: 57%;
+}
+
+.register__title_reset{
+    margin-right: 30%;
+}
+
+.btn__show{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 73%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.fw-bold{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 170px;
+}
+
+.register__submit{
+    margin-top: 30px;
+    outline: none;
+    border: none;
+
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 318px;
+    height: 50px;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    background: #4E2DF1;
+    color: #fff;
+    border-radius: 31px;
+    text-transform: capitalize;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.redirection{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.redirection__text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.blue__color{
+    color:#4E2DF1;
+    font-weight: 500;
+}
+
+.privacy__policy{
+    margin-top: 30px;
+    display: flex;
+}
+
+.privacy__policy_text{
+    max-width: 283px;
+    margin-left: 12px;
+    color: #352B67;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.privacy__policy_text span {
+    color: #C1BFCF;
+}
+
+.description__reset_pass{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+.register__policy__text{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    max-width: 280px;
+    color: #C1BFCF;
+}
+
+.register__policy__text span {
+    color: #352B67;
+}
+
+.btn__reset_pass{
+    margin-top: 0px;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    color: #C1BFCF;
+    background: rgba(193, 191, 207, 0.41);
+
+    max-width: 300px;
+    border-radius:3px;
+    
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+}
+
+.rotate__exit{
+    position: absolute;
+    color: #352B67;
+    font-size: 40px;
+    transform: rotate(45deg);
+
+    margin-top: 9px;
+    left: 89%;
+}
+
+.register__input_reset{
+    margin-bottom: 30px;
+}
+
+.captcha{
+    margin-bottom: 30px;
+    margin-left: 12px;
+}
+
+@media(max-width: 360px) {
+    .register__form_content{
+        padding-top: 10px;
+    }
+
+    .register__submit{
+        max-width: 300px;
+    }    
+}
+
+.link__reg_fz{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media(max-height:700px){
+    .register__form_login{
+        height: 350px;
+    }
+
+    .register__submit{
+        margin-top: 15px;
+    }
+
+    .register__input:not(:last-child) {
+        margin-top: 15px;
+    }
+
+    .register__title{
+        line-height: 0px;
+    }
+
+    .register__logo{
+        padding-top: 30px;
+    }
+
+    .register__text{
+        padding-top: 40px;
+    }
+}

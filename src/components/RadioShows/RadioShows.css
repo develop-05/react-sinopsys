@@ -1,0 +1,29 @@
+.radio__shows_content{
+    display: flex;
+}
+
+.radio__shows_title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.box__shadow {
+    max-width: 390px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(78, 45, 241, 0.25);
+    border-radius: 13px;
+}
+
+.yes__no{
+    margin-bottom: 20px;
+}
+
+.room__type{
+    border: 1px solid #4E2DF1;
+    border-radius: 13px;
+    padding: 5px;
+    margin-bottom: 10px;
+}

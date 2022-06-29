@@ -1,0 +1,453 @@
+.detail__content {
+    padding: 15px;
+}
+
+.detail__top__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail__title{
+    color: #4E2DF1;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.all__details{
+    display: none;
+}
+
+.all__details_visible {
+    display: block;
+}
+
+.detail__air{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.air__name{
+    max-width: 130px;
+    margin-right: 70px;
+}
+
+.air__name span {
+    color: #352B67;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.air__ticket{
+    margin-bottom: 45px;
+    margin-top: -7px;
+}
+
+.price__ticket{
+    color: #4E2DF1;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.economy__class_text{
+    font-size: 12px;
+    color: #888888;
+    text-align: left;
+
+    position: relative;
+    right: 27px;
+}
+
+.air__range{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 15px;
+    margin-left: 35px;
+}
+
+.air__range_first{
+    position: relative;
+    top: 10px;
+}
+
+.range__air_loc{
+    font-weight: 400;
+    font-size: 14px;
+    color: #352B67;
+}
+
+.range__air_loc_af{
+    position: relative;
+    right: 10px;
+    min-width: 196px;
+}
+
+.l-20{
+    position: relative;
+    left: 30px;
+}
+
+.range__air_loc span {
+    font-weight: 600;
+}
+
+.range__air_loc_time{
+    position: relative;
+    right: 30px;
+}
+
+.dashed__line{
+    position: relative;
+    top: -5px;
+    left: 13px;
+    width: 25px;
+    height: 25px;
+    border-left: 1px dotted  #352B67;
+    margin:1px 0;
+}
+
+.location__icon{
+    position: relative;
+    left: 2px;
+}
+
+.air__plane{
+    position: relative;
+    bottom:55px;
+    left: 45px;
+}
+
+.air__weight {
+    display: flex;
+    margin-top: 20px;
+}
+
+.suitcase__weight{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.suitcase__weight:not(:last-child) {
+    margin-right: 20px;
+}
+
+.suitcase__weight_text{
+    color: #888888;
+    margin-left: 7px;
+    font-weight: 600;
+}
+
+.pare__icon{
+    max-width: 20px;
+}
+
+.color__blue{
+    color: #4E2DF1;
+    font-weight: 600;
+}
+
+.af__weight_flight{
+    font-weight: 500;
+}
+
+.btn__views{
+    position: relative;
+    top: 3px;
+    left: 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.watch__travel_info-visible {
+    margin: auto;
+    top: 0;
+    width: 340px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 12px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.watch__travel_info{
+    position: absolute;
+    width: 340px;
+    min-height: 200px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 5px 12.24px 5px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    top: 0;
+
+    display: none;
+}
+
+.popup__title{
+    color: #4E2DF1;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.close{
+    position: absolute;
+    transform: rotate(45deg);
+    font-size: 45px;
+    left: 320px;
+    top: 8px;
+}
+
+.close_class{
+    position: relative;
+    margin-top: 0px;
+}
+
+.contenet__class{
+    width: 280px;
+    border: 1px solid #e4e4e4;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.economy__class{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name__class{
+    font-size: 18px;
+    color: #000;
+}
+
+.price__class{
+    margin-top: 20px;
+}
+
+.price__rate{
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.per__person{
+    font-size: 12px;
+}
+
+.service__class_list{
+    margin-top: 20px;
+}
+
+.class__item{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.item__text{
+    margin-left: 10px;
+    color: #342c5d;
+}
+
+.class__weight{
+    border-top: 1px solid #e4e4e4;
+    margin-top: 30px;
+}
+
+.class__suitcase{
+    margin-top: 10px;
+}
+
+.suitcase__class_img{
+    margin-right: 5px;
+}
+
+.af__class_text{
+    position: relative;
+    bottom: 7px;
+    color: #342c5d;
+}
+
+.btn__more{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    color: #342C5D;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.air__more-visible {
+    display: block;
+}
+
+.air__more{
+    margin-bottom: 40px;
+    display: none;
+}
+
+.fly__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #C1BFCF;
+    margin-left: 10px;
+}
+
+.af{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.air__range_af{
+    position: relative;
+    top: 10px;
+}
+
+.plane__time{
+    position: relative;
+    margin-left: 7px;
+    top: -3px;
+    color: #888888;
+}
+
+.ml45{
+    margin-left: 45px;
+    max-width: 220px;
+    position: relative;
+    bottom: 40px;
+}
+
+.l30{
+    position: relative;
+    left: 46px;
+    top: 8px;
+}
+
+.rules {
+    position: relative;
+    right: 15px;
+    width: 340px;
+    border-top: 1px solid #C4C4C4;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 20px;
+}
+
+
+.rule {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    letter-spacing: -0.02em;
+    color: #352B67;
+    text-align: center;
+}
+
+.rule  {
+    color: #4E2DF1;
+}
+
+.rule:not(:last-child) span {
+    padding-right:10px;
+}
+
+.rule__red{
+    color: #E63C32;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 180px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.canada{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.range__air_loc_canada{
+    position: relative;
+    top: 10px;
+}
+
+.air__range_canada{
+    position: relative;
+    top: 15px;
+}
+
+.air__range_canada:last-child {
+    margin-top: -60px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.range__air_loc_canada2{
+    position: relative;
+    left: 60px;
+}
+
+.check__now{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.check__time{
+    font-weight: 500;
+    font-size: 14px;
+    color: #888888;
+    max-width: 120px;
+}
+
+.check__time span {
+    color:#352B67;
+}
+
+.btn__check{
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    background: #BDBDBD;
+    border-radius: 9px;
+    padding: 10px;
+    color: #fff;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.suitcase__weight_af{
+    margin-bottom: 10px;
+}
+
+.btn__views_af{
+    position: relative;
+    bottom: 5px;
+}
+
+.pare__icon_af{
+    position: relative;
+    top: 5px;
+}

@@ -1,0 +1,135 @@
+.color__blue{
+    color: #4E2DF1;
+}
+
+.new__traveler_title {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: -0.015em;
+    color: #352B67;
+}
+
+.new__traveler_content{
+    margin: auto;
+    margin-left:7.5%;
+}
+
+
+
+.choose__gender{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.checkbox__list{
+   display: flex;
+   margin-bottom: 100px;
+
+}
+
+.visa{
+    position: relative;
+    bottom: 7px;
+    margin-left: 5px;
+}
+
+.usa__visa{
+    margin-top: 10px;
+}
+
+.checkbox__items:first-child {
+    margin-right: 70px;
+    margin-left: -10px;
+}
+
+
+
+input[type="radio"] {
+    display: none;
+}
+
+  .label__radio:before {
+    content: "";
+    color: #C1BFCF;
+    display: inline-block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+    margin-right: 20px;
+  }
+   
+.radio__input:checked + .label__radio:before {
+    content: "";
+    background-image: url("../../../public//images/blue_radio.svg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.visa__ml{
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+}
+
+.travel__save_block {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 4px rgba(78, 45, 241, 0.25);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.close__grey{
+    color: #fff;
+    background-color: #C1BFCF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px 50px;
+    border-radius:50px;
+    margin-right: 50px;
+}
+
+.save__blue{
+    color: #fff;
+    background-color:#4E2DF1;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px 50px;
+    border-radius:50px;
+    margin-right: 50px;
+}
+
+.req__blue_icon{
+    position: relative;
+    bottom: 35px;
+    margin-left: 280px;
+}
+
+/* input[type="date"]::after {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 20px;
+    background-image: url('../../../public/images/blue_calendar.svg');
+    background-repeat: no-repeat;
+    margin-left: 280px;
+    background-color: #fff;
+}
+
+input[type="date"] {
+    padding-left: -90px;
+} */

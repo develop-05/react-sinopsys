@@ -1,0 +1,38 @@
+
+
+.proposal__list{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey__text{
+    color: #C1BFCF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.offers__title{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.offer__title_left{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+
+    color: #4E2DF1;
+}
+
+.offer__title_right{
+    color: #4E2DF1;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.grey_text{
+    color: #888888;
+}

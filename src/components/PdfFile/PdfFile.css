@@ -1,0 +1,139 @@
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    z-index:1;
+    background:rgba(0,0,0,.7);
+}
+
+.watch__travel_info-visible {
+    margin: auto;
+    top: 0;
+    width: 340px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 12px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.watch__travel_info{
+    position: absolute;
+    width: 340px;
+    min-height: 200px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 5px 12.24px 5px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    top: 0;
+
+    display: none;
+}
+
+.popup__title{
+    color: #4E2DF1;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.close{
+    position: absolute;
+    transform: rotate(45deg);
+    font-size: 45px;
+    left: 320px;
+    /* top: -4px; */
+}
+
+.inputs__info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form__buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btn__travel_watch {
+    margin-right: 15px;
+    border-radius: 9px;
+    font-size: 14px;
+    padding: 10px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    border-radius: 15px;
+}
+
+.red {
+    background-color: #E63C32;
+    border: 1px solid  #E63C32;
+}
+
+.grey {
+    border: 1px solid  #6c757d;
+    background-color: #6c757d;
+}
+
+.inputs__info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pdf__item{
+    margin: auto;
+    height: 50px;
+    width: 300px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.pdf__href{
+    text-align: center;
+    margin-left: 40px;
+}
+
+.travel__docs{
+    position: absolute;
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 66.6%;
+}
+
+@media(max-width: 350px) {
+
+    .travel__docs{
+        margin-left: 60%;
+    }
+}
+
+.purple{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    background: #342C5D;
+    border-radius: 9px;
+}
+
+.pdf__docs_icon{
+    position: relative;
+    top: 2px;
+}

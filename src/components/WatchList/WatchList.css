@@ -1,0 +1,108 @@
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    z-index:1;
+    background:rgba(0,0,0,.7);
+}
+
+.watch__travel_info-visible {
+    margin: auto;
+    top: 0;
+    width: 340px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 12px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.watch__travel_info{
+    position: absolute;
+    max-width: 300px;
+    min-height: 200px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 5px 12.24px 5px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    top: 0;
+
+    display: none;
+}
+
+.popup__title{
+    color: #4E2DF1;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.close{
+    position: absolute;
+    transform: rotate(45deg);
+    font-size: 45px;
+    left: 320px;
+    top: 8px;
+}
+
+.inputs__info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form__buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btn__travel_watch {
+    margin-right: 15px;
+    border-radius: 9px;
+    font-size: 12x;
+    padding: 5px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    border-radius: 15px;
+}
+
+.red {
+    background-color: #E63C32;
+    border: 1px solid  #E63C32;
+}
+
+.grey {
+    border: 1px solid  #6c757d;
+    background-color: #6c757d;
+}
+
+.mt-10{
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.close2{
+    margin-top: 43px;
+}
+
+.height__input{
+    font-size: 10px;
+}
+
+.close__popup{
+    margin-top: -5px;
+}
+
+.register__input{
+    max-width: 300px;
+    height: 40px;
+}
+
+.watch__user_info_img {
+    height: 23px;
+    width: 23px;
+    flex: 1 1 auto;
+}

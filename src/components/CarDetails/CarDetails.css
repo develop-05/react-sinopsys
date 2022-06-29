@@ -1,0 +1,154 @@
+.detail__item{
+    width: 340px;
+    border: 1px solid #eaeaf0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.detail__content {
+    padding: 15px;
+}
+
+.detail__top__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail__title{
+    color: #4E2DF1;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.all__details{
+    display: none;
+}
+
+.all__details_visible {
+    display: block;
+}
+
+.car__price{
+    margin-top: 10px;
+}
+
+.blue__price span {
+    margin-top: 5px;
+    color: #4E2DF1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.grey__text2 {
+    color: #888888;
+}
+
+.car__price_span {
+    margin-right: 9px;
+}
+
+.about__car{
+    margin-top: 35px;
+}
+
+.name__car{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mark__car{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.blue__text{
+    color: #4E2DF1;
+    font-weight: 500;
+}
+
+.about__car_img{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.settings__car{
+    margin-top: 20px;
+    display: flex;
+}
+
+.set__car_item{
+    margin-right: 15px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.car__manual{
+    position: relative;
+    top: 3px;
+}
+
+.checks {
+    margin-bottom: 25px;
+}
+
+.detail__time{
+    margin-top: 17px;
+    white-space: nowrap;
+    border-radius: 8px;
+    color: #fff;
+    background: #110935;
+    position: relative;
+}
+
+.max-w2{
+    max-width: 200px;
+}
+
+.dotted__line{
+    border-top: 1px dashed #110935;
+    margin-top: -17px;
+    margin-left: -17px;
+    width: 340px;
+}
+
+.check__in {
+    position: relative;
+    top: 2spx;
+    margin-top: 35px;
+    margin-bottom: 0;
+    color: #888888;
+    padding: 0;
+    line-height: 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.check__in2{
+    position: relative;
+}
+
+.ml-50{
+    position: relative;
+    left: 50px;
+}
+
+.mt-50 {
+    margin-top: 60px;
+}
+
+.mt-10{
+    margin-top: 13px;
+}
+
+.max-w3 {
+    max-width: 240px;
+}
+
+.pick_up{
+    position: relative;
+    top: 5px;
+}

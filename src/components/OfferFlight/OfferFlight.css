@@ -1,0 +1,156 @@
+body {
+    color: #352B67;
+    background-color: #fff;
+}
+
+.offer__flight{
+    width: 300px;
+    box-shadow: 0px 1px 4px rgba(78, 45, 241, 0.25);
+    border-radius: 13px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.offer__flight_content{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.offer__count span {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+}
+
+.about__flight{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.air__company  {
+    max-width: 130px;
+}
+
+.air__company span{
+    font-weight: 600;
+    font-size: 14px;
+    color: #352B67;
+}
+
+.grey_text3{
+    font-weight: 500;
+    font-size: 12px;
+    color: #888888;
+}
+
+.grey__text4 {
+    color: #C1BFCF;
+}
+
+.price__ticket{
+    max-width: 120px;
+}
+
+.flight__block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.flight__hours{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.blue__plane{
+    display: flex;
+    justify-content: center;
+}
+
+.travel__time span {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: #4E2DF1;
+}
+
+.red__text{
+    display: flex;
+    justify-content: center;
+    color: #E63C32;
+    text-transform: uppercase
+}
+
+.count__tickets{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #EDEDED;
+    margin-top: 35px;
+}
+
+.mt-25{
+    margin-bottom: 20px;
+}
+
+.fz_14 {
+    font-size: 12px;
+}
+
+.fz_14 span{
+    font-size: 12px;
+    color: #C1BFCF;
+}
+
+
+.flight__btn_block{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.ab__af{
+    position: relative;
+    bottom: 20px;
+    max-width: 50px;
+    max-width: 50px;
+}
+
+.sm-mt{
+    margin-top: 0;
+}
+
+.ul__tickets_li{
+    color: #352B67;
+}
+
+.visible {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.visible__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #352B67;
+    margin-left: 40px;
+}
+
+.opacity__visible{
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.block__center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.last__element{
+    margin-bottom: 350px;
+}

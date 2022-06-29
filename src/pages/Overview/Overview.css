@@ -1,0 +1,109 @@
+.overview{
+    margin-top: 35spx;
+    max-width: 390px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(78, 45, 241, 0.25);
+    border-radius: 13px;
+    margin: 35px 20px;
+
+}
+
+.overview__content{
+    margin: 10px 20px;
+    padding-top: 20px;
+}
+
+.overview__title{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.overview__top_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview__info{
+    display: flex;
+}
+
+.overview__travelers{
+    margin-left: 20px;
+    color: #352B67;
+    font-weight: 500;
+}
+
+.grey__over{
+    color: #C1BFCF;
+}
+
+.edit__img{
+    position: relative;
+    bottom: 5px;
+}
+
+.overview__date_flight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.overview__date_text span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.015em;
+    color: #352B67;
+    text-align: center;
+}
+
+.overview__date_text {
+    margin-bottom: 10px;
+}
+
+.overview__date_grey-light span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.015em;
+    color: #C1BFCF;
+}
+
+.overview__date_grey-light {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.overview__date_cws{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: -0.015em;
+    color: #352B67;
+    text-align: center;
+}
+
+.overview__list{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.blue__arrow{
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+.btn__send_req-over{
+    width: 178px;
+    height: 45px;
+    background: rgba(78, 45, 241);
+    border-radius: 31px;
+    border: none;
+    outline: none;
+    color: #fff;
+}

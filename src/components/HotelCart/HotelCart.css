@@ -1,0 +1,179 @@
+.hotel__cart{
+    width: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(78, 45, 241, 0.25);
+    border-radius: 13px;
+
+    margin: auto;
+}
+
+.cart__content{
+    padding: 20px;
+}
+
+.detail__time4{
+    white-space: nowrap;
+    margin-top: 17px;
+    max-width: 110px;
+    padding: 8px;
+    border-radius: 8px;
+    color: #fff;
+    background: #110935;
+    position: relative;
+}
+
+.detail__time5 {
+    white-space: nowrap;
+    margin-top: 17px;
+    max-width: 230px;
+    padding: 8px;
+    border-radius: 8px;
+    color: #fff;
+    background: #110935;
+    position: relative;
+}
+
+.num__cart{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.cart__hotel_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.price__hotel span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.total__price span {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.02em;
+    color: #C1BFCF;
+}
+
+.hotel__icons{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom:9px;
+}
+
+.moon__icon{
+    margin-right: 10px;
+}
+
+.info__price_day span {
+    margin-right: 5px;
+}
+
+.hotel__prestige_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    max-width: 160px;
+
+    margin-bottom: 15px;
+}
+
+.blue__star{
+    margin-right: 7px;
+}
+
+.hotel__shows{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.show__on_map{
+    margin-right: 15px;
+}
+
+.max-w300{
+    max-width: 317px;
+}
+
+.grey__text_hotel{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #8C87A8;
+}
+
+.total__info_hotel:not(:first-child) {
+    margin-top: 15px;
+}
+
+.total__info_hotel span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #352B67;
+}
+
+.mb-60{
+    margin-bottom: 60px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mt-5{
+    margin-top: 5px;
+}
+
+.none__service{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.service__title{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mr-30{
+    margin-right:-90px;
+}
+
+/**********************************************
+***********************************************
+***********************************************
+********************SLIDER CARTS!!!**********************
+***********************************************
+***********************************************/
+
+
+.slider__title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #352B67;
+}
+
+.cart__slider_item{
+    padding: 20px;
+    max-width: 260px;
+}
+
+
+.title__slide_carts{
+    margin-left: 35px;
+}

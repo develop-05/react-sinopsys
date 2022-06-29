@@ -1,0 +1,19 @@
+.proposal__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #352B67;
+}
+
+.ml-40{
+    margin-left: 50px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mt-200{
+    margin-top:200px;
+}

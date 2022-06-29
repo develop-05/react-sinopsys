@@ -1,0 +1,140 @@
+body {
+    font-size: 14px;
+}
+.return__comeback{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.outbound{
+    display: flex;
+    justify-content: center;
+}
+
+.plane__fly{
+    margin-right: 10px;
+}
+
+.airport__info{
+    margin: 0 30px;
+    margin-bottom: 40px;
+}
+
+.airport__images{
+    display: inline-block;
+}
+
+.airport__time{
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.airport__time span {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #352B67;
+    margin-left: 10px;
+}
+
+.dot__img{
+    margin-bottom: 28px;
+}
+
+.location__img{
+    margin-left: 3px;
+}
+
+.dot__img::after{
+    position: absolute;
+    content: "";
+    height: 25px;
+    margin-left: -15px;
+    margin-top: 30px;
+
+    border-left: 1px dashed #352B67;
+}
+
+.flight__time_info{
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 20px;
+}
+
+.content__half_past{
+    display: flex;
+    justify-content: space-between;
+}
+
+.airport__time_night-time{
+    max-width: 200px;
+}
+
+.time__time {
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #352B67;
+    margin-right: 45px;
+}
+
+.pluses__plane{
+    margin: 0 40px;
+}
+
+.item__plus{
+    display: flex;
+    margin-top: 15px;
+}
+
+.icon__plus{
+    margin-right: 15px;
+}
+
+.grey__text_light{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #C1BFCF;
+}
+
+.rule__pluses{
+    margin-left: auto;
+}
+
+.view__fare_options{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.pare__button_options{
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #4E2DF1;
+    background-color: transparent;
+}
+
+.details__flight_page {
+    display: block;
+}
+
+.details__flight_page-none {
+    display: none;
+}
+
+.mt-120{
+    margin-top: 120px;
+}

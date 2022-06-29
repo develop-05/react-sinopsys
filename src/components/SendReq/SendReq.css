@@ -1,0 +1,50 @@
+@import '../../consts.css';
+
+.fixed__req{
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+}
+
+.traveler__block{
+    display: flex;
+    justify-content: space-around;
+
+    background: #FFFFFF;
+    box-shadow: 0px -1px 4px rgba(78, 45, 241, 0.25);
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+.count__travelers{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+.count__travelers span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #C1BFCF;
+}
+
+.req__traveler_icon{
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+.btn__send_req{
+    width: 178px;
+    height: 45px;
+    background: rgba(78, 45, 241, 0.54);
+    border-radius: 31px;
+    border: none;
+    outline: none;
+    color: #fff;
+}

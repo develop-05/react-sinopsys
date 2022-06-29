@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@600&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+  zoom: 100%;
+}
+
+button, input {
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+}
+
+body {
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+  color: #352B67;
+  overflow-x: hidden !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}

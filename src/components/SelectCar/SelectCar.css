@@ -1,0 +1,93 @@
+.title__car{
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+}
+
+.select__car_item{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(78, 45, 241, 0.25);
+    border-radius: 13px;
+    width: 320px;
+    margin: auto;
+    margin-top: 30px;
+}
+.car__item_content{
+    padding: 20px;
+}
+
+.num__count{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.car__rate_days{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.car__rental{
+    margin-top: 10px;
+}
+
+.rate__days{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+}
+
+.grey__text {
+    color:#888888;
+}
+
+.mark__car{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.petrol{
+    margin-right: 15px;
+}
+
+.icon__set{
+    margin-right: 5px;
+}
+
+.settings__car{
+    margin-bottom: 30px;
+}
+
+.rules__car{
+    margin-bottom: 20px;
+}
+
+.max-w-select-car{
+    max-width: 200px;
+}
+
+.max__w_line{
+    max-width: 315px;
+}
+
+.checks__select{
+    margin-bottom: 50px;
+}
+
+.select__btn{
+    display: flex;
+    justify-content: end;
+}
+
+.rules__car span {
+    font-weight: 500;   
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}

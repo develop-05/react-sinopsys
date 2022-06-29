@@ -1,0 +1,294 @@
+@import '../../consts.css';
+
+.dashboard {
+    margin-bottom: 40px;
+}
+
+.dashoard__content{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.top__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.dashboard__title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #4E2DF1;
+}
+
+.dashboard__title span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.dashboard__cart_item{
+    background: linear-gradient(187.06deg, #4E2DF1 45.84%, rgba(78, 45, 241, 0.49) 94.49%);
+    border-radius: 31px;
+    max-width: 157px;
+    min-height: 230px;
+}
+
+.dash__count{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #EDEDED;
+}
+
+.dash__name_cart{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #EDEDED;
+    margin-left: 42px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.dash__slide_link{
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 50px;
+}
+
+.ticketed{
+    margin-left: 30px;
+}
+
+.ticketed::after{
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #15DA29;
+    border-radius: 50%;
+
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.pending{
+    margin-left: 30px;
+}
+
+.pending::after {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #FEC17E;
+    border-radius: 50%;
+
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.dashboard__cart_item-bg{
+    background-color: #352B67;
+    border-radius: 31px;
+    max-width: 157px;
+    min-height: 230px;
+}
+
+.dash__my_trip{
+    margin-top: 40px;
+    margin: auto;
+}
+
+.dash__trip_title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    color: #4E2DF1;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.dash__my_trip{
+    max-width: 390px;
+    border: 0.5px solid #C1BFCF;
+    border-radius: 19px;
+}
+
+.dash__my_trip-content{
+    padding: 20px;
+}
+
+.dash__describe_location{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash__fw_text{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.content__text{
+    max-width: 120px;
+}
+
+.min-w200{
+    min-width: 150px;
+}
+
+.location__flight_text{
+    color: var(--color-primary);
+    font-weight: bold;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+    white-space: pre-wrap;
+}
+
+.grey__text{
+    color: var(--grey-color);
+}
+
+/*lA picture*/
+
+.main__dash_bg{
+    margin: auto;
+    max-width: 340px;
+    margin-top: 20px;
+}
+
+.main__dash_img{
+    width: 100%;
+    height: 12s0px;
+}
+
+.dash__info_block{
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 0.5px solid #C1BFCF;
+    padding-bottom: 20px;
+}
+
+.dash__info_tickets{
+    margin-top: 20px;
+}
+
+.dash__fw_text{
+    font-size: 16px;
+}
+
+.calendar__icon{
+    position: relative;
+    bottom: 10px;
+}
+
+.dash__grey_text{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.015em;
+    color: #AFABC2;
+}
+
+.dash__time_flight{
+    color: var(--color-primary);
+}
+
+/**check now===============================================*/
+
+.dash__check_now{
+    margin-top: 20px;
+
+    border-bottom: 0.5px solid #C1BFCF;
+    padding-bottom: 20px;
+}
+
+/*about dash hotel*/
+
+.dash__about_toggle-title {
+    line-height: 0px;
+}
+
+.dash__top_content-hotel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__dash_arrow_top {
+    margin-top: -25px;
+}
+
+
+.btn__dash_arrow_bottom {
+    margin-top: -15px;
+}
+
+.dash__about_toggle-title{
+    color: var(--color-primary);
+}
+
+.dash__answer_text{
+    color: var(--color-primary);
+    margin-left: 25px;
+}
+
+.dash__answer_text2{
+    margin-left: 20px;
+}
+
+.dash__service{
+    border-bottom: 0.5px solid #C1BFCF;
+    padding-bottom: 20px;
+}
+
+.dash__toggle2{
+    margin-top: 20px;
+}
+
+.view__trip_details{
+    border-top: 0.5px solid #C1BFCF;
+    padding-top: 20px;
+}
+
+.dash__view{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    color: #4E2DF1;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.dash__footer_text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #352B67;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.dashboard__phone_fill {
+    background: #352B67;
+    color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}

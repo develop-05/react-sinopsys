@@ -1,0 +1,37 @@
+.new__flight_group{
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.new__flight_group-title{
+    margin-bottom: 25px;
+}
+
+.req__icon{
+    position: relative;
+    bottom: 40px;
+    left: 90.5%;
+    background-color: #fff;
+}
+
+
+.or{
+    display: flex;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.0015em;
+    color: #352B67;
+    margin-bottom: 30px;
+}
+
+.or span {
+    padding: 0;
+    margin: 0;
+}
+
+.req__div2{
+    margin-top: -20px;
+}
